@@ -14,6 +14,7 @@ public class DrinkDetailFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
+
         if (savedInstanceState != null) {
             drinkId = savedInstanceState.getLong("drinkId");
         }

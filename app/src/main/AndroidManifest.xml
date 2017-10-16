@@ -9,17 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.hfad.Project2.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.hfad.Project2.MainActivityFood" />
-        <activity android:name="com.hfad.Project2.MainActivityDrink" />
-        <activity android:name="com.hfad.Project2.FoodDetailActivity" />
-        <activity android:name="com.hfad.Project2.DrinkDetailActivity"></activity>
+        <activity android:name=".MainActivityFood" />
+        <activity android:name=".MainActivityDrink" />
+        <activity android:name=".FoodDetailActivity" />
+        <activity android:name=".DrinkDetailActivity" />
     </application>
 
 </manifest>
